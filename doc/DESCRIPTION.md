@@ -1,0 +1,1 @@
+Docusaurus is a project for building, deploying, and maintaining open source project websites easily.
