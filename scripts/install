@@ -15,7 +15,12 @@ ynh_nodejs_install
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-ynh_setup_source --dest_dir="$install_dir"
+#ynh_setup_source --dest_dir="$install_dir"
+
+mkdir $install_dir
+
+chmod -R o-rwx "$install_dir"
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # APP INITIAL CONFIGURATION
@@ -41,7 +46,8 @@ yunohost service add "$app" --description="Build optimized websites quickly" --l
 ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
- 	ynh_hide_warnings ynh_exec_as_app npm install --force
+ 	#ynh_hide_warnings ynh_exec_as_app npm install --force
+ 	ynh_hide_warnings ynh_exec_as_app npx create-docusaurus@latest $site_name classic
 popd
 
 #=================================================
