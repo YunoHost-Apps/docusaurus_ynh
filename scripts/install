@@ -15,9 +15,9 @@ ynh_nodejs_install
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-#ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir"
 
-mkdir -p $install_dir
+#mkdir -p $install_dir
 
 #=================================================
 # APP INITIAL CONFIGURATION
@@ -44,7 +44,7 @@ ynh_script_progression "Installing the app..."
 
 pushd "$install_dir"
  	#ynh_hide_warnings ynh_exec_as_app npm install --force
- 	ynh_hide_warnings ynh_exec_as_app npx create-docusaurus@latest $site_name classic
+ 	ynh_hide_warnings ynh_exec_as_app npx create-docusaurus@$(ynh_app_upstream_version) $site_name classic
 popd
 
 #=================================================
