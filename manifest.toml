@@ -36,6 +36,10 @@ ram.runtime = "512M"
     [install.domain]
     type = "domain"
 
+    [install.path]
+    type = "path"
+    default = "/docusaurus"
+
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -60,7 +64,7 @@ ram.runtime = "512M"
     [resources.system_user]
 
     [resources.install_dir]
-
+    
     [resources.data_dir]
 
     [resources.permissions]
@@ -68,5 +72,7 @@ ram.runtime = "512M"
 
     [resources.ports]
 
-    [resources.apt]
-    packages = ""
+    [resources.apt.extras.yarn]
+    repo = "deb https://dl.yarnpkg.com/debian/ stable main"
+    key = "https://dl.yarnpkg.com/debian/pubkey.gpg"
+    packages = "yarn"

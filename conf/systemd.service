@@ -9,7 +9,7 @@ Group=__APP__
 Environment="PATH=__PATH_WITH_NODEJS__"
 Environment="NODE_ENV=production"
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__NODEJS_DIR__/node run serve -- --build --port __PORT__ --host 127.0.0.1
+ExecStart=__NODEJS_DIR__/node run serve -- --build --port __PORT__ --host 127.0.0.1 --config __INSTALL_DIR__/docusaurus.config.js --no-open
 Restart=on-failure
 
 [Install]
