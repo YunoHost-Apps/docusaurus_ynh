@@ -19,6 +19,8 @@ ynh_script_progression "Setting up source files..."
 
 mkdir -p $install_dir
 
+chown -R "$app:www-data" "$install_dir"
+
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
