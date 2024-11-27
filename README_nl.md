@@ -5,7 +5,9 @@ Hij mag NIET handmatig aangepast worden.
 
 # Docusaurus voor Yunohost
 
-[![Integratieniveau](https://dash.yunohost.org/integration/docusaurus.svg)](https://ci-apps.yunohost.org/ci/apps/docusaurus/) ![Mate van functioneren](https://ci-apps.yunohost.org/ci/badges/docusaurus.status.svg) ![Onderhoudsstatus](https://ci-apps.yunohost.org/ci/badges/docusaurus.maintain.svg)
+[![Integratieniveau](https://apps.yunohost.org/badge/integration/docusaurus)](https://ci-apps.yunohost.org/ci/apps/docusaurus/)
+![Mate van functioneren](https://apps.yunohost.org/badge/state/docusaurus)
+![Onderhoudsstatus](https://apps.yunohost.org/badge/maintained/docusaurus)
 
 [![Docusaurus met Yunohost installeren](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=docusaurus)
 

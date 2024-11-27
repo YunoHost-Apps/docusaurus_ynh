@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Docusaurus para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/docusaurus.svg)](https://ci-apps.yunohost.org/ci/apps/docusaurus/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/docusaurus.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/docusaurus.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/docusaurus)](https://ci-apps.yunohost.org/ci/apps/docusaurus/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/docusaurus)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/docusaurus)
 
 [![Instalar Docusaurus con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=docusaurus)
 

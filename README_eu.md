@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Docusaurus YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/docusaurus.svg)](https://ci-apps.yunohost.org/ci/apps/docusaurus/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/docusaurus.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/docusaurus.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/docusaurus)](https://ci-apps.yunohost.org/ci/apps/docusaurus/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/docusaurus)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/docusaurus)
 
 [![Instalatu Docusaurus YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=docusaurus)
 

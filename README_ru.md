@@ -5,7 +5,9 @@
 
 # Docusaurus для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/docusaurus.svg)](https://ci-apps.yunohost.org/ci/apps/docusaurus/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/docusaurus.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/docusaurus.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/docusaurus)](https://ci-apps.yunohost.org/ci/apps/docusaurus/)
+![Состояние работы](https://apps.yunohost.org/badge/state/docusaurus)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/docusaurus)
 
 [![Установите Docusaurus с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=docusaurus)
 
