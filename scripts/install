@@ -45,7 +45,7 @@ ynh_script_progression "Installing the app..."
 pushd "$install_dir"
  	#ynh_hide_warnings ynh_exec_as_app npm install --force
  	#ynh_hide_warnings ynh_exec_as_app npm run build
- 	ynh_exec_as_app npx create-docusaurus@$(ynh_app_upstream_version) $site_name classic
+ 	ynh_exec_as_app npx create-docusaurus@$(ynh_app_upstream_version) "$site_name" classic
 popd
 
 #=================================================
