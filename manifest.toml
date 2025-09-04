@@ -19,13 +19,12 @@ admindoc = "https://docusaurus.io/docs"
 code = "https://github.com/facebook/docusaurus"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "512M"
@@ -76,3 +75,6 @@ ram.runtime = "512M"
     repo = "deb https://dl.yarnpkg.com/debian/ stable main"
     key = "https://dl.yarnpkg.com/debian/pubkey.gpg"
     packages = "yarn"
+
+    [resources.nodejs]
+    version = "22"
